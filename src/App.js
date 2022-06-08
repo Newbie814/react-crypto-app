@@ -1,9 +1,19 @@
 import React from 'react';
+import { Switch, Route, Link } from 'react-router-dom';
+import { Layout, Typography, Space, Divider } from 'antd';
+
+import { Navbar } from './components';
+
+import './App.css';
 
 const App = () => {
   return (
-    <div>
-      <h1>Cryptonight</h1>
+    <div className='App'>
+      <div className='navbar'>
+        <Navbar />
+      </div>
+      <div className='main'></div>
+      <div className='footer'></div>
     </div>
   );
 };
