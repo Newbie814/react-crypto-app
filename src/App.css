@@ -51,7 +51,8 @@ a:hover {
   width: 100%;
   /* width: 56px !important; */
 }
-.logo-container img {
+
+.ant-avatar > img {
   width: 256px;
 }
 
